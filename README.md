@@ -7,14 +7,14 @@ Find and replace all on all files (CMD+SHIFT+F):
 - Description: My new Nuxt module
 -->
 
-# My Module
+# nuxt-healthz module
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
+Add the healthcheck path `/healthz` in Nuxt App.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
@@ -32,8 +32,23 @@ My new Nuxt module for doing amazing things.
 Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi module add my-module
+npx nuxi module add nuxt-healthz
 ```
+
+## Manual Setup
+```
+npm install -D nuxt-healthz
+```
+`nuxt.config.ts`
+
+export default defineNuxtConfig({
+  modules: [
+    '@nuxt/healthz'
+  ],
+  healthz: {
+    // options here
+  }
+})
 
 That's it! You can now use My Module in your Nuxt app ✨
 
