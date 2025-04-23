@@ -6,7 +6,7 @@ import type { ModuleOptions } from 'nuxt/schema';
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'nuxt-healthz',
+    name: 'nuxt/healthz',
     configKey: 'healthz',
     compatibility: {
       // Semver version of supported nuxt versions
