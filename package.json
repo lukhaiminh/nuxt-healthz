@@ -1,8 +1,8 @@
 {
   "name": "nuxt-healthz",
   "version": "1.1.1",
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "description": "Nuxt module - quick add healthcheck path: /healthz to Nuxt App project",
+  "repository": "https://github.com/lukhaiminh/nuxt-healthz.git",
   "license": "MIT",
   "type": "module",
   "exports": {
