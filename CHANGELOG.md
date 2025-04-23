@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.2
+
+[compare changes](https://github.com/lukhaiminh/nuxt-healthz/compare/v1.1.1...v1.1.2)
+
+### 📖 Documentation
+
+- Update package description & repository ([f22901c](https://github.com/lukhaiminh/nuxt-healthz/commit/f22901c))
+
+### ❤️ Contributors
+
+- MooN  < Lu Khai Minh>
+
 ## v1.1.1
 
 [compare changes](https://github.com/your-org/my-module/compare/v1.1.0...v1.1.1)
