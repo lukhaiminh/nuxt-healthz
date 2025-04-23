@@ -41,6 +41,7 @@ npm install -D nuxt-healthz
 ```
 `nuxt.config.ts`
 
+```
 export default defineNuxtConfig({
   modules: [
     '@nuxt/healthz'
@@ -49,6 +50,7 @@ export default defineNuxtConfig({
     // options here
   }
 })
+```
 
 That's it! You can now use My Module in your Nuxt app ✨
 
