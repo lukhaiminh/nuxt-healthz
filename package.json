@@ -1,5 +1,5 @@
 {
-  "name": "@nuxt/healthz",
+  "name": "nuxt-healthz",
   "version": "1.1.6",
   "description": "Nuxt module - quick add healthcheck path: /healthz to Nuxt App project",
   "repository": "https://github.com/lukhaiminh/nuxt-healthz.git",
