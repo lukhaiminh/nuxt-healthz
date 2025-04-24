@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>@nuxtjs/strapi</h1>
+    <h1>Nuxt Healthz</h1>
 
     <h2>MooN Test</h2>
   </div>

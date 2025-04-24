@@ -7,44 +7,44 @@ Find and replace all on all files (CMD+SHIFT+F):
 - Description: My new Nuxt module
 -->
 
-# nuxt-healthz module
+# nuxt-healthz
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Add the healthcheck path `/healthz` in Nuxt App.
+The nuxt module to add the healthcheck path `/healthcheck` in Nuxt App.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
-<!-- - [📖 &nbsp;Documentation](https://example.com) -->
+- [🏀 Online playground](https://stackblitz.com/github/lukhaiminh/nuxt-healthz?file=playground%2Fapp.vue) -->
+<!-- - [📖 &nbsp;Documentation](https://example.com)
 
-## Features
+<!-- ## Features -->
 
 <!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
+<!-- - ⛰ &nbsp;Foo
 - 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- 🌲 &nbsp;Baz -->
 
-## Quick Setup
+<!-- ## Quick Setup
 
 Install the module to your Nuxt application with one command:
 
 ```bash
 npx nuxi module add nuxt-healthz
+``` -->
+
+## Setup
+```
+npm install nuxt-healthz
 ```
 
-## Manual Setup
 ```
-npm install -D nuxt-healthz
-```
-`nuxt.config.ts`
-
-```
+// nuxt.config.ts
 export default defineNuxtConfig({
   modules: [
-    '@nuxt/healthz'
+    'nuxt-healthz'
   ],
   healthz: {
     // options here
@@ -59,8 +59,12 @@ That's it! You can now use My Module in your Nuxt app ✨
 
 <details>
   <summary>Local development</summary>
+
+  ```
+    Have fun !!!
+  ```
   
-  ```bash
+  <!-- ```bash
   # Install dependencies
   npm install
   
@@ -82,7 +86,7 @@ That's it! You can now use My Module in your Nuxt app ✨
   
   # Release new version
   npm run release
-  ```
+  ``` -->
 
 </details>
 
