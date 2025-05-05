@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.3.1
+
+[compare changes](https://github.com/lukhaiminh/nuxt-healthz/compare/v1.3.0...v1.3.1)
+
+### 🩹 Fixes
+
+- AddServerScanDir is not a function for nuxt old version ([0d1ff87](https://github.com/lukhaiminh/nuxt-healthz/commit/0d1ff87))
+
+### ❤️ Contributors
+
+- MooN  < Lu Khai Minh>
+
 ## v1.3.0
 
 [compare changes](https://github.com/lukhaiminh/nuxt-healthz/compare/v1.2.2...v1.3.0)

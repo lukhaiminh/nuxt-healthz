@@ -1,6 +1,6 @@
 {
   "name": "nuxt-healthz",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "author": "MooN <lukhaiminh@gmail.com>",
   "description": "Nuxt module - quick add healthcheck path: /healthcheck to Nuxt App project",
   "keywords": [
