@@ -3,7 +3,7 @@ Get your module up and running quickly.
 
 Find and replace all on all files (CMD+SHIFT+F):
 - Name: My Module
-- Package name: my-module
+- Package name: nuxt-healthz
 - Description: My new Nuxt module
 -->
 
@@ -22,6 +22,12 @@ The nuxt module to add the default healthcheck path `/healthcheck` in Nuxt App.
 
 ## Features
 <!-- Highlight some of the features your module provide here -->
+- ⛰ &nbsp; Found 0 vulnerabilitiesup to date
+```
+audited 810 packages in 2s
+192 packages are looking for funding
+```
+
 - 🚠 &nbsp; No dependencies, no third parties
 - 🌲 &nbsp; Compatibility with all Nuxt versions: nuxt2, nuxt3.
 - ⛰ &nbsp; After install done navigate to `/healthcheck`. e.g. http://localhost:3000/healthcheck
@@ -35,7 +41,7 @@ The nuxt module to add the default healthcheck path `/healthcheck` in Nuxt App.
   "uptime": 15.137034667, // the number of seconds the current Node.js process has been running.
   "localTime": "2025-04-24T08:42:13.203Z",
   "service": {
-    "name": "my-module-playground"
+    "name": "nuxt-healthz-playground"
   },
   "env": {
     "nodeEnv": "development",
@@ -57,13 +63,13 @@ navigate to `/api/healthz`. e.g. http://localhost:3000/api/healthz
 
 ## Quick Setup
 
-<!-- Install the module to your Nuxt application with one command:
+Install the module to your Nuxt application with one command:
 
 ```bash
 npx nuxi module add nuxt-healthz
-``` -->
+```
 
-## Setup
+## Manual Setup
 ```
 npm install nuxt-healthz
 
@@ -517,52 +523,20 @@ That's it! You can now use `nuxt-healthz` module in your Nuxt app ✨
 ```
 </details>
 
-<!-- 
-## Contribution
+## License
 
-<details>
-  <summary>Local development</summary>
-
-  ```
-    Have fun !!!
-  ```
-  
-  <!-- ```bash
-  # Install dependencies
-  npm install
-  
-  # Generate type stubs
-  npm run dev:prepare
-  
-  # Develop with the playground
-  npm run dev
-  
-  # Build the playground
-  npm run dev:build
-  
-  # Run ESLint
-  npm run lint
-  
-  # Run Vitest
-  npm run test
-  npm run test:watch
-  
-  # Release new version
-  npm run release
-  ```
-
-</details>
+[MIT License](./LICENSE)
 
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/my-module/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/my-module
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-healthz/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-href]: https://npmjs.com/package/nuxt-healthz
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/my-module.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npm.chart.dev/my-module
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-healthz.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-href]: https://npm.chart.dev/nuxt-healthz
 
-[license-src]: https://img.shields.io/npm/l/my-module.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/my-module
+[license-src]: https://img.shields.io/npm/l/nuxt-healthz.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/nuxt-healthz
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

@@ -1,6 +1,6 @@
 import { defineEventHandler } from 'h3';
 import pkg from '@/package.json';
-import { writeFileSync } from 'node:fs';
+// import { writeFileSync } from 'node:fs';
 
 const startTime = new Date();
 // const timeZone = 'Australia/Sydney';
