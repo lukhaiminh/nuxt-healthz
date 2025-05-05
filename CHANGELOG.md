@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.3.0
+
+[compare changes](https://github.com/lukhaiminh/nuxt-healthz/compare/v1.2.2...v1.3.0)
+
+### 🚀 Enhancements
+
+- Custom healthcheck endpoint ([0c7bc36](https://github.com/lukhaiminh/nuxt-healthz/commit/0c7bc36))
+
+### ❤️ Contributors
+
+- MooN  < Lu Khai Minh>
+
 ## v1.2.2
 
 [compare changes](https://github.com/lukhaiminh/nuxt-healthz/compare/v1.2.1...v1.2.2)
